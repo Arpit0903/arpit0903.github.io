@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="icon" href="brand logo.png" type="image/gif">
+    <title>Special Education Notes</title>
+</head>
+<script>
+  (function() {
+    'use strict';
+    window.addEventListener('load', function() {
+      var forms = document.getElementsByClassName('needs-validation');
+      var validation = Array.prototype.filter.call(forms, function(form) {
+        form.addEventListener('submit', function(event) {
+          if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          else {
+            console.log('Message Sent');
+          }
+          form.classList.add('was-validated');
+        }, false);
+      });
+    }, false);
+  })();
+  
+  $(".dropdown-menu a").click(function() {
+    $(this).closest(".dropdown-menu").prev().dropdown("toggle");
+  });
+
+</script> 
+<style>
+  html, body {
+    margin:0;
+    padding:0; 
+    width:100%; 
+    height:100%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 60px;
+  }
+  .screen .main {
+    width: 100%;
+    height: 100%; 
+  }
+  .jumbotron {
+    height: 45%;
+    margin-bottom: 0;
+    border-radius: 0;
+    margin-top: 3%;
+  }
+  nav button div ul.menu-open {
+    display: block;
+  }
+  input {
+  max-width: 60%;
+  }
+  .form-control {
+    max-width: 400px;
+  }
+
+</style>
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top navbar-collapse">
+    <a class="navbar-brand" href="#homeImage"><img src="brand logo.png" alt="logo" style="width: 70px;"></a>
+    <button class="navbar-toggler" type="button" id="menu-button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" style="font-size: 20px;" href="#about">About Us<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle dropdown-toggle-split" style="font-size: 20px;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Notes
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" style="font-size: 20px;" href="bedspl.html">B.Ed Special Education</a>
+            <div class="dropdown-divider"></div>
+              <a class="dropdown-item" style="font-size: 20px;" href="dedspl.html">D.Ed. Special Education</a>
+            </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" style="font-size: 20px;" href="#contact-us" aria-disabled="true">Contact Us</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" style="font-size: 20px;" href="#" aria-disabled="true">Blog</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active"><span class="nav-link"><a href="https://www.facebook.com/Special-Education-Notes-113164063713889/" target="_blank" style="color: white; font-size: 20px;"><i class="fab fa-facebook-square"></i></a></span></li>
+      </ul>
+    </div>
+  </nav> 
+  <div class="text-center">
+    <img src="home.jpg" alt="Home Image" id="homeImage" style="margin-top: 80px; width: 75%;">
+  </div>
+  <div class="text-center" style="margin-top: 2%;">
+    <a href="#get-soft-copies"><button type="button" class="btn btn-outline-warning btn-lg">Get Soft Copies</button></a>
+  </div>
+  <div class="container-fluid " style="margin-top: 160px;" id="about">
+    <h1><strong><center>About Us</center></strong></h1>
+    <div class="row" style="margin-top:30px ">
+      <div class="col-sm-6">
+        <img src="SEN LOGO.png" alt="Image" class="img-fluid" >
+      </div>
+      <div class="col-sm-6" style="padding-left: 7%; padding-right: 8%;">
+          <p style="font-size: 22px;">
+            SEN offers a platform to gain and share knowledge among peers. The main focus of this website is to share study material to larger number of people. Our study material includes notes on Special Education courses. <strong>Let’s save our efforts and time.</strong> 
+          </p>
+      </div>
+  </div>
+  <div class="container-fluid " style="margin-top: 160px;" id="get-soft-copies">
+    <h1><strong><center>Get Soft Copies</center></strong></h1>
+    <div class="row" style="margin-top:50px ">
+      <div class="col-sm-5">
+        <div class="container text-center">
+          <img src="pdfimage.jpg" alt="Image" class="img-fluid" style="width: 50%;">
+        </div>
+      </div>
+      <div class="col-sm-7" style="padding-left: 7%; padding-right: 8%;">
+          <p style="font-size: 22px;">
+            Send us an email to get soft copies of the notes available on the website and comprehensive notes on other special education related topics at affordable rates.
+          </p>
+          <p style="font-size: 22px;">
+            Email us at:
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=specialeducationnotes1@gmail.com" target="_blank" class="badge badge-warning" style="font-size: 11px; display: inline-block;">specialeducationnotes1@gmail.com</a>
+          </p> 
+      </div>
+  </div>
+  <div class="container-fluid" style="margin-top: 160px;" id="contact-us">
+    <h1>
+        <center><strong>Contact Us</strong></center>
+    </h1>
+    <div class="text-center">
+      <p style="font-size: 24px; color: #FFAF47; margin-top: 2%;">
+        <mark><i>Send us your query</i></mark>
+      </p>
+    </div>
+  <div class="container mt-3 center-div">
+    <form action="" method="post" class="col-lg-8 offset-lg-2 needs-validation" novalidate>
+      <div class="row justify-content-center">
+        <input type="text" class="form-control" placeholder="Enter Your Name" name="name" required><br><br>
+        <input type="email" class="form-control" placeholder="Enter Your E-mail" id="Email" name="email" required><br><br>
+        <input type="text" class="form-control" placeholder="Subject" name="subject"><br><br>
+        <textarea class="form-control" rows="5" placeholder="Tell Us About Your Request" name="query" required></textarea>
+      </div>
+      <div class="container" style="margin-top: 3%;">
+        <div class="row">
+            <div class="col text-center">
+              <button type="submit" class="btn btn-outline-dark" name="query-submit" value="send">Send Query</button>
+            </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="jumbotron bg-dark text-center" style="margin-top: 6%;">
+    <img src="SEN LOGO.png" alt="SEN Logo" class="img-fluid" style="width: 280px;">
+    <p class="text-center" style="color: white; margin-top: 3%;">Copyright &copy; specialeducationnotes.co.in</p>
+  </div>
+  <script>
+    $('.navbar-collapse a:not(.dropdown-toggle)').click(function(){
+      $(".navbar-collapse").collapse('hide');
+    });
+  </script>
+</body>
+</html>
